@@ -1,0 +1,23 @@
+.background-img {
+    background-image: url('../../assets/home-img.jpg');
+    width: auto;
+    height: 581px;
+    background-size:cover;
+
+    filter: grayscale(100%);
+}
+
+footer {
+    text-align: center;
+    text-decoration: cadetblue;
+    padding-top: 15px;
+}
+#foot {
+    height: 50px;
+    background-color: aquamarine;
+}
+
+
+.container {
+    margin: 10px;
+}
