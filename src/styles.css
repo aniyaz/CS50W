@@ -1,0 +1,35 @@
+.logo {
+    width: 350px;
+    height: auto;
+    margin-left: 510px;
+}
+.getcenter {
+    margin-top: 200px;
+    padding: 10px;
+
+}
+.form-group {
+    width: 550px;
+    margin-left: 390px;
+    
+}
+.form-control {
+    display: inline-flex;
+    align-self: center;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+div.input {
+    margin-right: 100px;
+}
+.fontchange {
+    font-size: 11px;
+    font-family: 'Courier New', Courier, monospace;
+}
+tr td {
+    padding: 10px;
+}
+.form-control{
+}
