@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="google_as.html"><img src="/home/aman/IDEAS/cs50-web/projects/assests/google_s.png" height="30px" width="90px"> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="./index.html" target="_self">Google Search</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./image.html" target="_self">Images</a></li>
+                </ul>
+            </div>
+        </nav>
+        <h5 style="color: red; margin: 20px;">Advanced Search</h5>
+        <hr>
+        <div class="justify-content-center container">
+            <form action="https://google.com/search">
+                <table>
+                    <thead>
+                        <th>Find pages with...</th>
+                        <th></th>
+                        <th>To do this in the search box.</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><label>all these words:</label></td>
+                            <td><input type="text" class="form-control" id="typebox" type="text" name="as_q"></td>
+                            <td><label class="fontchange">Type the important words: tri-colour rat terrier
+                            </label></td>
+                        </tr>
+                        <tr>
+                            <td><label>this exact word or phrase:</label></td>
+                            <td><input type="text" class="form-control" id="typebox" type="text" name="as_epq"></td>
+                            <td><label class="fontchange">Put exact words in quotes: "rat terrier"
+                            </label></td>
+                        </tr>
+                        <tr>
+                            <td><label>any of these words:</label></td>
+                            <td><input type="text" class="form-control" id="typebox" type="text" name="as_oq"></td>
+                            <td><label class="fontchange">Type OR between all the words you want: miniature OR standard
+                            </label></td>
+                        </tr>
+                        <tr>
+                            <td><label>none of these words:</label></td>
+                            <td> <input type="text" class="form-control" id="typebox" type="text" name="as_eq"></td>
+                            <td><label class="fontchange">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"
+                            </label></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input class="btn btn-primary" type="submit" class="form-control" value="Advanced Search"></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+            
+        </div>
+    </body>
+</html>
