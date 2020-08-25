@@ -7,7 +7,7 @@
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="image.html"><img src="/home/aman/IDEAS/cs50-web/projects/2020/search/assests/google_image.png" height="30px" width="90px"> </a>
+            <a class="navbar-brand" href="image.html"><img src="../assests/google_image.png" height="30px" width="90px"> </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -19,21 +19,16 @@
             </div>
         </nav>
         <div class="justify-content-center getcenter">
-            <img class="logo d-block" src="/home/aman/IDEAS/cs50-web/projects/assests/google_image.png" alt="Google Search">
+            <img class="logo d-block" src="../assests/google_image.png" alt="Google Search">
             <form action="https://google.com/search">
                 <input type="hidden" name="tbm" value="isch">
                 <div class="form-group">
                     <input class="form-control" id="typebox" type="text" name="q">
                     <br>
-                <div class="row justify-content-center">
-                    <div class="col-4">
-                        <input class="form-control" type="submit" value="Google Search">
-                    </div>
-                    <div class="col-4">
-                        <button class="form-control"><a href="https://www.google.com/doodles/" target="_self">I'm Feeling Lucky</a></button>
-                    </div>  
-                </div>
-            </form>
+                <div class="img-submit">
+                    <input class="form-control" type="submit" value="Google Search">
+                </div>      
+        </form>
         </div>
     </body>
 </html>

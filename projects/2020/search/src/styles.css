@@ -31,5 +31,13 @@ div.input {
 tr td {
     padding: 10px;
 }
-.form-control{
+#typebox {
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.img-submit {
+    position: absolute;
+    left: 45%;
+    
 }
