@@ -1,3 +1,7 @@
-# Project 0
+CS50 Web Programming with Python and JavaScript (2020)
 
-Web Programming with Python and JavaScript
+# Project 0
+    Search
+
+# Project 1
+    wiki
